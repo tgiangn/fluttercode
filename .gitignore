@@ -48,6 +48,7 @@ app.*.map.json
 /web
 /windows
 deplpy.sh
-pub*
+pubspec.lock
+pubspec.yaml
 
 
