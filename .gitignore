@@ -42,6 +42,7 @@ app.*.symbols
 app.*.map.json
 
 /android
+/assets
 /ios
 /lib/main.dart
 /test
