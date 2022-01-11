@@ -3,34 +3,34 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "/fluttercode/public/assets/AssetManifest.json": "5d334518befa6caf66b60aa62e4b4017",
-"/fluttercode/public/assets/assets/images/scenary.png": "c896234341a75349cfc1f4a872999e89",
-"/fluttercode/public/assets/assets/images/scenary_red.png": "b80197357e29b834cb85480036867f32",
-"/fluttercode/public/assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"/fluttercode/public/assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"/fluttercode/public/assets/NOTICES": "8b5f0b8e497484f7604f333baa4fbc5b",
-"/fluttercode/public/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"/fluttercode/public/favicon.png": "5dcef449791fa27946b3d35ad8803796",
+  "assets/AssetManifest.json": "5d334518befa6caf66b60aa62e4b4017",
+"assets/assets/images/scenary.png": "c896234341a75349cfc1f4a872999e89",
+"assets/assets/images/scenary_red.png": "b80197357e29b834cb85480036867f32",
+"assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/NOTICES": "8b5f0b8e497484f7604f333baa4fbc5b",
+"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "471545e08ac67596285b682b8a479ff5",
-"/fluttercode/public/": "471545e08ac67596285b682b8a479ff5",
-"main.dart.js": "6aa85c2c7797e54299e69d333af723a7",
-"manifest.json": "71a3418849508fbd7bb0a74090b64319",
+"index.html": "3a6d3afebdee5dd02ed9b1da30f57b36",
+"/": "3a6d3afebdee5dd02ed9b1da30f57b36",
+"main.dart.js": "2313cec069a2d5fca99e3fda38b48af9",
+"manifest.json": "8283a0e8eee36e7954cd15ab10baa4bc",
 "version.json": "2c5bd8fcf8adb774cd73fbecfe8785dd"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/fluttercode/public/",
+  "/",
 "main.dart.js",
 "index.html",
 "assets/NOTICES",
-"/fluttercode/public/assets/AssetManifest.json",
-"/fluttercode/public/assets/FontManifest.json"];
+"assets/AssetManifest.json",
+"assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
   self.skipWaiting();
