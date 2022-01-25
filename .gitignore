@@ -46,6 +46,8 @@ app.*.map.json
 /public/assets
 /ios
 /lib/main.dart
+/lib/list1.dart
+/lib/dict.dart
 /test
 /web
 /windows
