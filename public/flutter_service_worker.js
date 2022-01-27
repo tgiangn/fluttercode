@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "eb9482295373b57da915b0533b49c402",
+  "assets/AssetManifest.json": "062681c1d9eaab0b16333ada75d38f48",
 "assets/assets/fonts/NotoSansSC-Black.otf": "015fd15b32d2fc14879949b7df5849a8",
 "assets/assets/fonts/NotoSansSC-Bold.otf": "d8a8395b3f1e53fc64393906ff995e48",
 "assets/assets/fonts/NotoSansSC-Light.otf": "a56b3cd8a1a76fb323c74935ad5a3012",
@@ -21,6 +21,7 @@ const RESOURCES = {
 "assets/assets/images/scenary_red.png": "b80197357e29b834cb85480036867f32",
 "assets/assets/images/surnames.png": "d7b4c481569252bad097a36c989d70c0",
 "assets/assets/images/thousandwords.png": "d4af2f970abe38a434ad6e6ee28c2a26",
+"assets/assets/images/threecharclassic.png": "1389296ad3dad3097e2c44985057be8b",
 "assets/assets/images/toflywithyou.png": "67d8bcae407b0b2b561352c79c111fd5",
 "assets/assets/images/untamed.png": "ac875e9e7e08a7b4ce1cc3a61aa05350",
 "assets/assets/images/urmyglory.png": "da09b82c0a4c8b6b96ce89d1f20e1a44",
@@ -35,10 +36,10 @@ const RESOURCES = {
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "ii.html": "9b2bea107fb316db157365f837c5261f",
-"index.html": "f183e11b41eb13f23b39de06ab1dceae",
-"/": "f183e11b41eb13f23b39de06ab1dceae",
+"index.html": "9cd65312429fa9f05612fb1d488d16e5",
+"/": "9cd65312429fa9f05612fb1d488d16e5",
 "index1.html": "94bb1bce711237a763e235c85934e186",
-"main.dart.js": "36a27495bc52f9c1ec4f17086fb72c6b",
+"main.dart.js": "12c52e49b000cb3e0a3facb30855c009",
 "manifest.json": "8283a0e8eee36e7954cd15ab10baa4bc",
 "version.json": "c755d234f8a8fcd2dff21115220b1e11"
 };
